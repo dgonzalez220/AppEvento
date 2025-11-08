@@ -6,7 +6,7 @@ import androidx.room.PrimaryKey
 @Entity(tableName = "lugar")
 data class LugarEntity(
     @PrimaryKey(autoGenerate = true) val idLugar: Int = 0,
-    val nombre: String,
+    val nombre_lugar: String,
     val descripcion: String,
     val fotoUrl: String
 )

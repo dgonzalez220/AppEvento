@@ -7,10 +7,10 @@ import java.util.Date
 @Entity(tableName = "usuario")
 data class UsuarioEntity(
     @PrimaryKey(autoGenerate = true) val idUser: Int = 0,
-    val nombre: String,
-    val correo: String,
-    val contrasena: String,
-    val tipo: String, // "normal" o "admin"
+    val nombre_user: String,
+    val correo_user: String,
+    val contrasena_user: String,
+    val tipo_user: String, // "normal" o "admin"
     val fechaRegistro: Date
 )
 
